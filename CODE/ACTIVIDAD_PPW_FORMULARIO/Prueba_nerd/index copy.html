@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Datos Personales</title>
+    <link rel="stylesheet" href="estilos copy.css">
+</head>
+<body>
+    <div class="form-container">
+        <form id="personalDataForm">
+            <h2>Datos Personales</h2>
+
+            <label for="name">Nombre(s):</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="lastName">Apellido(s):</label>
+            <input type="text" id="lastName" name="lastName" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="country">País:</label>
+            <select id="country" name="country" required>
+                <option value="">Seleccione...</option>
+                <option value="Ecuador">Ecuador</option>
+                <option value="Colombia">Colombia</option>
+                <option value="Perú">Perú</option>
+                <option value="Alemania">Alemania</option>
+            </select>
+
+            <label for="city">Ciudad:</label>
+            <select id="city" name="city" required>
+                <option value="">Seleccione...</option>
+            </select>
+
+            <button type="button" id="saveButton">Guardar</button>
+        </form>
+
+        <div id="output" class="hidden">
+            <h2>Datos Personales</h2>
+            <p><strong>Nombre(s):</strong> <span id="outputName"></span></p>
+            <p><strong>Apellido(s):</strong> <span id="outputLastName"></span></p>
+            <p><strong>Email:</strong> <span id="outputEmail"></span></p>
+            <p><strong>País:</strong> <span id="outputCountry"></span></p>
+            <p><strong>Ciudad:</strong> <span id="outputCity"></span></p>
+            <button id="closeButton">Cerrar</button>
+        </div>
+    </div>
+
+    <script src="script copy.js"> </script>
+</body>
+
+</html>

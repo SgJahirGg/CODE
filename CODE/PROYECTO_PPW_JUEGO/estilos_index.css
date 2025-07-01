@@ -1,0 +1,33 @@
+body {
+    background-color: #AFEEEE;
+    display: flex;
+    place-content: center center;
+    margin: 0%;
+    min-height: 100vh;
+    flex-direction: column;
+
+}
+
+.mapadiv {
+    width: 80%;
+    margin: auto;
+}
+
+.mapadiv path {
+    fill: #FAFAD2;
+    stroke: #FFA07A;
+    stroke-width: 2.5px;
+}
+
+.mapadiv :hover {
+    fill: #B22222;
+    
+}
+
+footer {
+  font-size: 0.9em;
+  background: #AFEEEE;
+  padding: 10px;
+  margin-top: 40px;
+  text-align: center;
+}

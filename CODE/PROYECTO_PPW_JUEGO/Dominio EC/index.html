@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dominio Ecuatoriano</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🛡️ Dominio Ecuatoriano</h1>
+    <p class="intro">
+      Responde preguntas y conquista provincias. ¡Quien tenga más territorio
+      gana!
+    </p>
+  </header>
+
+  <main>
+    <section class="info">
+      <p>🎯 Turno de: <span id="turno">Jugador 1</span></p>
+      <div class="puntajes">
+        <p>🔵 Jugador 1: <span id="puntaje1">0</span></p>
+        <p>🔴 Jugador 2: <span id="puntaje2">0</span></p>
+      </div>
+    </section>
+
+    <!-- Mapa SVG simplificado -->
+    <svg id="mapa-ecuador" viewBox="0 0 800 500">
+      <path id="guayas" d="M100,100 L200,100 L200,200 L100,200 Z"  />
+      <path id="pichincha" d="M210,100 L310,100 L310,200 L210,200 Z" />
+      <path id="azuay" d="M320,100 L420,100 L420,200 L320,200 Z" />
+      <path id="manabi" d="M430,100 L530,100 L530,200 L430,200 Z" />
+      <path id="loja" d="M540,100 L640,100 L640,200 L540,200 Z" />
+      <path id="imbabura" d="M100,210 L200,210 L200,310 L100,310 Z" />
+      <path id="santa_elena" d="M210,210 L310,210 L310,310 L210,310 Z" />
+      <path id="esmeraldas" d="M320,210 L420,210 L420,310 L320,310 Z" />
+    </svg>
+
+    <!-- Cuadro de pregunta -->
+    <div id="pregunta-container" class="oculto">
+      <h2>📚 Pregunta Histórica</h2>
+      <p id="pregunta"></p>
+      <div id="opciones"></div>
+    </div>
+
+    <!-- Ganador -->
+    <div id="ganador" class="oculto">
+      <h2>🏆 ¡Juego Terminado!</h2>
+      <p id="mensaje-ganador"></p>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 – RL-Legends | Universidad Politécnica Salesiana</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

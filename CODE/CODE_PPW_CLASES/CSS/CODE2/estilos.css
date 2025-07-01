@@ -1,0 +1,21 @@
+h1 {
+    font-size: 44px;
+    color: chocolate;
+
+}
+
+h2 {
+    font-size: 34px;
+    color:orange;
+}
+p {
+    font-size: 30px;
+    color:grey; 
+}
+
+.box {
+    font-size: 30px;
+    padding: 5px ;
+    border: 5px  black solid ;
+    margin: 20px;
+}
