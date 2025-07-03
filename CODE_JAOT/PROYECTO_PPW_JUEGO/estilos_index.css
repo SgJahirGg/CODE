@@ -31,3 +31,18 @@ footer {
   margin-top: 40px;
   text-align: center;
 }
+
+
+.Logo_ups {
+    width: 30px;
+    height: 30px;
+    position: center;              
+
+}
+
+.Logo_RL-Legends {
+    width: 30px;
+    height: 30px;
+    position: center;
+    border-radius: 50%;
+}
