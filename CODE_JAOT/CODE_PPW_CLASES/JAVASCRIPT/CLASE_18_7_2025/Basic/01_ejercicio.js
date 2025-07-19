@@ -68,9 +68,3 @@ var obj4 = {
 
 console.log(obj2 == obj4)
 
-//Tipos de funciones
-
-
-
-//Alcance de las variables 
-var a= 'Hola mundo'
