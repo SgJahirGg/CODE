@@ -1,0 +1,1 @@
+import appConfig from './data.json' with { type: 'json' };
