@@ -40,3 +40,4 @@ let set= new Set(["A", "B", "C"]);
 let set2 = new Set(["C", "D", "E"]);
 
 let set3 = set.intersection(set2); // Set { "C" }
+console.log(set3);
